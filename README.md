@@ -1,5 +1,3 @@
----
-
 # ✨ AutoBlogGen – AI-Powered Blog Generator & Workflow Automator
 
 > ⚙️ A real-world project that automates blog ideation, generation, approval workflows, and Google Workspace integration for content marketing at scale.
@@ -36,5 +34,3 @@ You’ll need:
 - Google Service Account JSON
 - Google Doc IDs (prompts, templates, etc.)
 - Email credentials (for Gmail SMTP)
-
----
