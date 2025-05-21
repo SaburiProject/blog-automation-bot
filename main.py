@@ -347,7 +347,7 @@ class GiveawayAgent:
 
     # 4. Fallback with phone number
         for line in all_giveaways:
-            if "+91 9967123333" in line:
+            if "+91 **********" in line:
                 print("📞 Fallback line with phone number used")
                 return line
 
