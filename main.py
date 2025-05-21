@@ -121,10 +121,10 @@ PRODUCT_SHEET_ID = os.getenv("PRODUCT_SHEET_ID")
 
 
 SCOPES = [
-    "https://www.googleapis.com/auth/documents.readonly",
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive",
-    "https://www.googleapis.com/auth/spreadsheets.readonly"
+    "",
+    "",
+    "",
+    ""
 ]
 credentials = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES
@@ -855,8 +855,8 @@ def approve_topic():
     <p><strong>Category:</strong> {category}</p>
     <p>Please check the tracker sheet for details.</p>
     <p>💾 Shared Google Drive Folder (for graphics):<br>
-    <a href="https://drive.google.com/drive/folders/1pmHyrIZsXO7TpcvUnRsAoMZSEX1LXgXH?usp=sharing" target="_blank">
-    https://drive.google.com/drive/folders/1pmHyrIZsXO7TpcvUnRsAoMZSEX1LXgXH?usp=sharing
+    <a href="*********" target="_blank">
+    ****************
     </a></p>
     """
 
